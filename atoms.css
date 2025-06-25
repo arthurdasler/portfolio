@@ -55,6 +55,7 @@
     border-radius: 10px;
     cursor: pointer;
     white-space: nowrap;
+    text-decoration: underline none;
 }
 
 .button-icon:hover {
