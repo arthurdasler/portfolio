@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: repo: arthurdasler/portfolio
+  repo: arthurdasler/portfolio
   branch: main
 
 media_folder: "IMG/" # где Netlify CMS будет хранить картинки
