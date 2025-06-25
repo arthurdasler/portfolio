@@ -1,8 +1,0 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Frame 5070">
-<ellipse id="Ellipse 1" cx="12" cy="12" rx="5" ry="5" fill="#FF0000">
-                                    <animate attributeName="rx" values="5;10;5;10;5" begin="0s" dur="2.2s" repeatCount="indefinite" fill="freeze" calcMode="linear" keyTimes="0;0.25;0.5;0.75;1"/>
-                                    <animate attributeName="ry" values="5;10;5;10;5" begin="0s" dur="2.2s" repeatCount="indefinite" fill="freeze" calcMode="linear" keyTimes="0;0.25;0.5;0.75;1"/></ellipse>
-
-                                    </g>
-</svg>
