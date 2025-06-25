@@ -3,8 +3,8 @@ backend:
   repo: repo: arthurdasler/portfolio
   branch: main
 
-media_folder: "IMG/depot" # где Netlify CMS будет хранить картинки
-public_folder: "/IMG/depot"
+media_folder: "IMG/" # где Netlify CMS будет хранить картинки
+public_folder: "/IMG/"
 
 collections:
   - name: "projects"
