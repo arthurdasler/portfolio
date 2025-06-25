@@ -1,4 +1,4 @@
-fetch('projects.json')
+fetch('data/projects.json')
   .then(res => res.json())
   .then(data => {
     const projectList = document.getElementById('project-list');
