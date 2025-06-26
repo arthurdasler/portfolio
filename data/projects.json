@@ -17,7 +17,7 @@
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
     "images": ["IMG/depot/3-1_5x.webp","IMG/depot/10.webp", "IMG/depot/damate1.gif" ],
-    "markdown": "desc/depot.md"
+    "markdown": "project_descriptions/depot.md"
   },
   {
     "id": "depot",
@@ -27,6 +27,6 @@
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
     "images": ["IMG/depot/1-1_5x.webp", "IMG/epot/2-1_5x.webp", "IMG/depot/4-1_5x.webp", "IMG/depot/3-1_5x.webp","IMG/depot/10.webp", "IMG/depot/damate1.gif" ],
-    "markdown": "desc/depot.md"
+    "markdown": "project_descriptions/depot.md"
   }
 ]
