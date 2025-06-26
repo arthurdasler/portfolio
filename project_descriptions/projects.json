@@ -8,7 +8,7 @@
     "logo": "logo/dvizh.svg",
     "images": ["IMG/depot/1-1_5x.webp"],
     "markdown": "project_descriptions/dvizh.md",
-    "hash": "dvizh"
+    "hash": "#dvizh"
   },
   {
     "id": "drop it",
@@ -19,7 +19,7 @@
     "logo": "logo/dropit.svg",
     "images": ["IMG/depot/10.webp"],
     "markdown": "project_descriptions/dropit.md",
-    "hash": "dropit"
+    "hash": "#dropit"
   },
   {
     "id": "Lifty",
@@ -30,7 +30,7 @@
     "logo": "logo/lifty.svg",
     "images": ["IMG/depot/10.webp"],
     "markdown": "project_descriptions/lifty.md",
-    "hash": "lifty"
+    "hash": "#lifty"
   },
   {
     "id": "Авиасейлс",
@@ -41,7 +41,7 @@
     "logo": "logo/aviasales.svg",
     "images": ["IMG/depot/10.webp"],
     "markdown": "project_descriptions/aviasales.md",
-    "hash": "aviasales"
+    "hash": "#aviasales"
   },
   {
     "id": "Depot WPF",
@@ -52,7 +52,7 @@
     "logo": "logo/depot.svg",
     "images": ["IMG/depot/10.webp"],
     "markdown": "project_descriptions/aviasales.md",
-    "hash": "depot"
+    "hash": "#depot"
   }
   
 ]
