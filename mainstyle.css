@@ -18,11 +18,11 @@
   display: flex;
   width: 400px;
   padding: 10px;
-
 }
 
 .left-content {
   display: block;
+  position: relative;
   flex-direction: column;
   flex: 1;
   gap: 100px;
@@ -161,6 +161,24 @@
 
 .project.active {
   background-color: #F0F0F0;
+}
+
+.contacts {
+  display: block;
+  position: absolute ;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #972c2c;
+  border-radius: 10px;
+  font-family: 'DecimaMonoX';
+  font-size: var(--font-size-m);
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #858585;
+  box-sizing: border-box;
+  width: calc(100% - 20px);;
+  z-index: 10;
 }
 
 /* ------------  */

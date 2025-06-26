@@ -135,20 +135,6 @@
     width: fit-content;
   }
 
-  .contacts {
-    display: block;
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    background-color: #272727;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: 'DecimaMonoX';
-    font-size: var(--font-size-m);
-    letter-spacing: -1px;
-    text-decoration: none;
-    color: #858585;
-  }
 
   .contact-link {
     color: #ffffff;
