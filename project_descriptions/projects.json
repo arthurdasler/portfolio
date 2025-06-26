@@ -1,0 +1,53 @@
+[
+  {
+    "id": "Движ",
+    "title": "Движ",
+    "description": "Prop-tech, SaaS-продукт для автоматизации процессов девелоперов",
+    "period": "2023 → 2025",
+    "position": "Ведущий дизайнер коммуникаций",
+    "logo": "logo/dvizh.svg",
+    "images": ["IMG/depot/1-1_5x.webp"],
+    "markdown": "project_descriptions/dvizh.md"
+  },
+  {
+    "id": "drop it",
+    "title": "drop it",
+    "description": "Мобильное приложение с программами тренировок и бренд одежды от Андрея Скоромного",
+    "period": "2022 → 2023",
+    "position": "Арт-директор",
+    "logo": "logo/depot.svg",
+    "images": ["IMG/depot/10.webp"],
+    "markdown": "project_descriptions/dropit.md"
+  },
+  {
+    "id": "Lifty",
+    "title": "Lifty",
+    "description": "NFT-маркетплейс и платформа<br>blockchain-гейминга",
+    "period": "2022 → 2022",
+    "position": "Ведущий дизайнер коммуникаций",
+    "logo": "logo/lifty.svg",
+    "images": ["IMG/depot/10.webp"],
+    "markdown": "project_descriptions/lifty.md"
+  },
+  {
+    "id": "Авиасейлс",
+    "title": "Авиасейлс",
+    "description": "Поиск дешёвых авиабилетов",
+    "period": "2021 → 2022",
+    "position": "Ведущий дизайнер коммуникаций",
+    "logo": "logo/aviasales.svg",
+    "images": ["IMG/depot/10.webp"],
+    "markdown": "project_descriptions/aviasales.md"
+  },
+  {
+    "id": "Depot WPF",
+    "title": "Depot WPF",
+    "description": "Крупнейшее брендинговое агентство<br>в России",
+    "period": "2019 → 2021",
+    "position": "Дизайнер айдентики",
+    "logo": "logo/depot.svg",
+    "images": ["IMG/depot/10.webp"],
+    "markdown": "project_descriptions/aviasales.md"
+  }
+  
+]
