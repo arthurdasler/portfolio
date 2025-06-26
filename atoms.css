@@ -60,6 +60,7 @@
 
 .button-icon:hover {
     background-color: #e0e0e0;
+    text-decoration: underline none;
 }
 
 .icon-wrapper {
