@@ -32,3 +32,10 @@
 .contacts-mob {
   display: none;
 }
+
+.text-block {
+    font-family:'DecimaMonoX';
+    font-size: var(--font-size-m);
+    letter-spacing: -1px;
+    font-size: var(--font-size-m);
+}

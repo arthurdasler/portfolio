@@ -66,14 +66,6 @@
     flex-direction: column;
     justify-content: space-between;
     width: 16px;
-
-}
-
-.text-block {
-    font-family:'DecimaMonoX';
-    font-size: var(--font-size-m);
-    letter-spacing: -1px;
-    font-size: var(--font-size-m);
 }
 
 .button-invis {
