@@ -8,18 +8,18 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!res.ok) throw new Error('Не удалось загрузить gallery/gallery.json');
       return res.json();
     })
-    .then(files => {
-      files.forEach(filename => {
-        const name = filename.replace(/\.[^/.]+$/, ''); // без расширения
-        const src  = `gallery/${filename}`;
+    .then(items => {
+      items.forEach(item => {
+        const name = item.file.replace(/\.[^/.]+$/, '');
+        const src  = `gallery/${item.file}`;
 
         const card = document.createElement('div');
         card.className = 'gallery-img';
         card.innerHTML = `
           <img src="${src}" class="img" alt="${name}">
           <div class="img-desc">
-            <div class="img-comp">${name}</div>
-            <div class="img-work">Описание работы для ${name}</div>
+            <div class="img-comp">${item.comp}</div>
+            <div class="img-work">${item.work}</div>
           </div>
         `;
         galleryGrid.append(card);

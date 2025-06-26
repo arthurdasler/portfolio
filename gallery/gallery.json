@@ -1,9 +1,47 @@
 [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png",
-  "7.png"
+  {
+    "file": "1.png",
+    "comp": "Hazex",
+    "work": "Айдентика, бренд-платформа, логотип"
+  },
+  {
+    "file": "2.png",
+    "comp": "AnotherCo",
+    "work": "Редизайн веб-сайта"
+  },
+  {
+    "file": "3.png",
+    "comp": "BestStudio",
+    "work": "Создание иллюстраций"
+  },
+    {
+    "file": "1.png",
+    "comp": "Hazex",
+    "work": "Айдентика, бренд-платформа, логотип"
+  },
+  {
+    "file": "1.png",
+    "comp": "AnotherCo",
+    "work": "Редизайн веб-сайта"
+  },
+  {
+    "file": "3.png",
+    "comp": "BestStudio",
+    "work": "Создание иллюстраций"
+  },
+    {
+    "file": "4.png",
+    "comp": "Hazex",
+    "work": "Айдентика, бренд-платформа, логотип"
+  },
+  {
+    "file": "6.png",
+    "comp": "AnotherCo",
+    "work": "Редизайн веб-сайта"
+  },
+  {
+    "file": "8.png",
+    "comp": "BestStudio",
+    "work": "Создание иллюстраций"
+  }
 ]
