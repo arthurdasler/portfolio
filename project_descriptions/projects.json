@@ -7,7 +7,8 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/dvizh.svg",
     "images": ["IMG/depot/1-1_5x.webp"],
-    "markdown": "project_descriptions/dvizh.md"
+    "markdown": "project_descriptions/dvizh.md",
+    "hash": "dvizh"
   },
   {
     "id": "drop it",
@@ -17,7 +18,8 @@
     "position": "Арт-директор",
     "logo": "logo/dropit.svg",
     "images": ["IMG/depot/10.webp"],
-    "markdown": "project_descriptions/dropit.md"
+    "markdown": "project_descriptions/dropit.md",
+    "hash": "dropit"
   },
   {
     "id": "Lifty",
@@ -27,7 +29,8 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/lifty.svg",
     "images": ["IMG/depot/10.webp"],
-    "markdown": "project_descriptions/lifty.md"
+    "markdown": "project_descriptions/lifty.md",
+    "hash": "lifty"
   },
   {
     "id": "Авиасейлс",
@@ -37,7 +40,8 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/aviasales.svg",
     "images": ["IMG/depot/10.webp"],
-    "markdown": "project_descriptions/aviasales.md"
+    "markdown": "project_descriptions/aviasales.md",
+    "hash": "aviasales"
   },
   {
     "id": "Depot WPF",
@@ -47,7 +51,8 @@
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
     "images": ["IMG/depot/10.webp"],
-    "markdown": "project_descriptions/aviasales.md"
+    "markdown": "project_descriptions/aviasales.md",
+    "hash": "depot"
   }
   
 ]
