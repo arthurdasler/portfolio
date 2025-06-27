@@ -45,7 +45,7 @@
   @media (max-width: 768px) {
 
     .gallery-grid {
-        column-count: 1;
+        column-count: 2;
     }
 
   }
