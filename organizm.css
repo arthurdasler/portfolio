@@ -11,28 +11,6 @@
   letter-spacing: -1px;
 }
 
-.contacts {
-  display: block;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  padding: 10px;
-  background-color: #272727;
-  border-radius: 10px;
-  font-family: 'DecimaMonoX';
-  font-size: var(--font-size-m);
-  letter-spacing: -1px;
-  text-decoration: none;
-  color: #858585;
-  box-sizing: border-box;
-  width: 360px;
-  z-index: 10;
-}
-
-.contacts-mob {
-  display: none;
-}
-
 .text-block {
   display: flex;
   flex-direction: column;
@@ -60,6 +38,10 @@
   color: #B2B2B2;
 }
 
+.project.active .button-invis {
+  display: none;
+}
+
 .project-date {
   color: #B2B2B2;
   font-size: var(--font-size-s);
@@ -71,20 +53,18 @@
   font-size: var(--font-size-m);
 }
 
+
+
 .project-description {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px ;
   font-family: 'DecimaMonoX';
   letter-spacing: -1px;
   font-size: var(--font-size-m);
-  background-color: #ffffffb4;
-  backdrop-filter: blur(5px);
-  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  background-color: #F8F8F8;
+  padding: 4px;
   border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 50%;
 }
 
 .contact-link {
@@ -108,7 +88,6 @@
     padding: 10px;
   }
 
-
   .contacts {
     display: none;
 
@@ -127,4 +106,9 @@
     text-decoration: none;
     color: #858585;
   }
+
+  .text-block {
+    padding-left: 10px;
+  }
+
 }

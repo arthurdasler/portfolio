@@ -58,16 +58,6 @@ fetch('project_descriptions/projects.json')
     });
 
     Promise.all(mdPromises).then(() => {
-      // Вставляем мобильные контакты
-      infoContainer.insertAdjacentHTML('beforeend', `
-        <div class="contacts-mob">
-          <a href="https://t.me/arthurborsokov" class="contact-link" target="_blank">Телеграм</a> • 
-          <a href="https://instagram.com/arthurborsokov" class="contact-link" target="_blank">Нельзяграм</a> • 
-          <a href="https://www.behance.net/arthurdasler" class="contact-link" target="_blank">Behance</a><br>
-          email: <a href="mailto:arthurdasler@gmail.com" class="contact-link">arthurdasler@gmail.com</a>
-        </div>
-      `);
-
       const items = document.querySelectorAll('.project');
       const infos = document.querySelectorAll('.project-info');
 
