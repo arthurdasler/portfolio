@@ -83,4 +83,21 @@ p {
   background-color: #ececec00;
   border: 0px;
   border-radius: 10px;
+  text-decoration: none;
+}
+
+.button-invis:hover {
+  color: #000000;
+}
+
+.button-text {
+  font-family: 'DecimaMonoX';
+  font-size: var(--font-size-m);
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #0400e1;
+}
+
+.button-text:hover {
+  color: #898989;
 }
