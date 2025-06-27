@@ -141,10 +141,6 @@
   gap: 10px;
 }
 
-.project.active {
-  background-color: #ffffff;
-}
-
 /* ------------  */
 
 .project-image {
