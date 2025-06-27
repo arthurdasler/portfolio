@@ -6,7 +6,7 @@
 
 .gallery-grid {
     column-count: 4;
-    column-gap: 20px;
+    column-gap: 10px;
     padding: 10px;
     background-color: #f5f5f5;
 }
