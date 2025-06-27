@@ -66,9 +66,15 @@ p {
 
 .icon-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  width: 16px;
+  align-items: center;
+  width: 10px;
+}
+
+.icon-wrapper img {
+  display: flex;
+  align-items: center;
+  width: 10px;
 }
 
 .button-invis {
