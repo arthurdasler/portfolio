@@ -6,7 +6,7 @@
     "period": "2023 → 2025",
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/dvizh.svg",
-    "images": ["IMG/depot/3-1_5x.webp"],
+    "images": ["IMG/depot/1-1_5x.webp", "IMG/depot/2-1_5x.webp"],
     "markdown": "project_descriptions/dvizh.md",
     "hash": "#dvizh"
   },
@@ -17,7 +17,7 @@
     "period": "2022 → 2023",
     "position": "Арт-директор",
     "logo": "logo/dropit.svg",
-    "images": ["IMG/depot/10.webp"],
+    "images": ["IMG/depot/2-1_5x.webp"],
     "markdown": "project_descriptions/dropit.md",
     "hash": "#dropit"
   },
@@ -28,7 +28,7 @@
     "period": "2022 → 2022",
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/lifty.svg",
-    "images": ["IMG/depot/10.webp"],
+    "images": ["IMG/depot/3-1_5x.webp"],
     "markdown": "project_descriptions/lifty.md",
     "hash": "#lifty"
   },
@@ -50,7 +50,7 @@
     "period": "2019 → 2021",
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
-    "images": ["IMG/depot/10.webp"],
+    "images": ["IMG/depot/damate1.gif"],
     "markdown": "project_descriptions/aviasales.md",
     "hash": "#depot"
   }
