@@ -50,7 +50,7 @@
     "period": "2019 → 2021",
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
-    "images": ["IMG/depot/damate1.gif"],
+    "images": ["IMG/depot/1-1_5x.webp", "IMG/depot/damate1.gif" ],
     "markdown": "project_descriptions/aviasales.md",
     "hash": "#depot"
   }
