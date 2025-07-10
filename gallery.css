@@ -31,13 +31,13 @@
   }
   
   .img-comp {
-    font-family: 'DecimaMonoX';
+    font-family: 'ArthurstuffMono';
     font-size: var(--font-size-m);
     letter-spacing: -1px;
   }
   
   .img-work {
-    font-family: 'DecimaMonoX';
+    font-family: 'ArthurstuffMono';
     font-size: var(--font-size-s);
     color: #b7b7b7;
     letter-spacing: -0.5px;
