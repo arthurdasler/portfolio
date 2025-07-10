@@ -50,7 +50,11 @@ fetch('project_descriptions/projects.json')
           const infoHTML = `
             <div class="project-info ${isActive?'active':''}" id="${project.id}">
               ${imgs}
-              <div class="project-description">${html}</div>
+              <div class="project-description">
+                <div class="about">${html}</div>
+                <div class="skill">  <b>Компетенции:</b><br><br>${project.skill} </div>
+              </div>
+              
             </div>
           `;
           infoContainer.insertAdjacentHTML('beforeend', infoHTML);

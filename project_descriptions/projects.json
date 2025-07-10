@@ -6,9 +6,12 @@
     "period": "2023 → 2025",
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/dvizh.svg",
-    "images": ["IMG/depot/6.webp"],
+    "images": [
+      "IMG/depot/6.webp"
+    ],
     "markdown": "project_descriptions/dvizh.md",
-    "hash": "#dvizh"
+    "hash": "#dvizh",
+    "skill": "2025"
   },
   {
     "id": "drop it",
@@ -17,9 +20,12 @@
     "period": "2022 → 2023",
     "position": "Арт-директор",
     "logo": "logo/dropit.svg",
-    "images": ["IMG/depot/2-1_5x.webp"],
+    "images": [
+      "IMG/depot/2-1_5x.webp"
+    ],
     "markdown": "project_descriptions/dropit.md",
-    "hash": "#dropit"
+    "hash": "#dropit",
+    "skill": "2025"
   },
   {
     "id": "Lifty",
@@ -28,9 +34,12 @@
     "period": "2022 → 2022",
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/lifty.svg",
-    "images": ["IMG/depot/3-1_5x.webp"],
+    "images": [
+      "IMG/depot/3-1_5x.webp"
+    ],
     "markdown": "project_descriptions/lifty.md",
-    "hash": "#lifty"
+    "hash": "#lifty",
+    "skill": "2025"
   },
   {
     "id": "Авиасейлс",
@@ -39,9 +48,12 @@
     "period": "2021 → 2022",
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/aviasales.svg",
-    "images": ["IMG/depot/10.webp"],
+    "images": [
+      "IMG/depot/10.webp"
+    ],
     "markdown": "project_descriptions/aviasales.md",
-    "hash": "#aviasales"
+    "hash": "#aviasales",
+    "skill": "2025"
   },
   {
     "id": "Depot WPF",
@@ -50,11 +62,28 @@
     "period": "2019 → 2021",
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
-    "images": ["IMG/depot/13.webp", "IMG/depot/14.webp", "IMG/depot/15.webp", "IMG/depot/16.webp","IMG/depot/17.webp", "IMG/depot/1.webp","IMG/depot/2.webp","IMG/depot/3.webp", "IMG/depot/4.webp", "IMG/depot/5.webp", "IMG/depot/6.webp", "IMG/depot/7.webp", "IMG/depot/8.webp", "IMG/depot/9.webp", "IMG/depot/10.webp", "IMG/depot/11.webp", "IMG/depot/12.webp", "IMG/depot/damate1.gif"],
+    "images": [
+      "IMG/depot/13.webp",
+      "IMG/depot/14.webp",
+      "IMG/depot/15.webp",
+      "IMG/depot/16.webp",
+      "IMG/depot/17.webp",
+      "IMG/depot/1.webp",
+      "IMG/depot/2.webp",
+      "IMG/depot/3.webp",
+      "IMG/depot/4.webp",
+      "IMG/depot/5.webp",
+      "IMG/depot/6.webp",
+      "IMG/depot/7.webp",
+      "IMG/depot/8.webp",
+      "IMG/depot/9.webp",
+      "IMG/depot/10.webp",
+      "IMG/depot/11.webp",
+      "IMG/depot/12.webp",
+      "IMG/depot/damate1.gif"
+    ],
     "markdown": "project_descriptions/depot.md",
-    "hash": "#depot"
+    "hash": "#depot",
+    "skill":"Разработка креативных концепций<br>Дизайн и вёрстка брендбуков<br>Подготовка презентаций для клиентов и тендеров<br>Понимание бренд-стратегии и визуальной айдентики<br>Командная работа в рамках агентского продакшна<br>Работа в условиях сжатых сроков и высокой планки качества"
   }
-  
-  
-  
 ]
