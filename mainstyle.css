@@ -229,15 +229,24 @@
     flex-direction: row;
     width: fit-content;
     padding-left: 12px;
+    padding-right: 12px;
   }
 
   .project-list-wrapper {
-    overflow: scroll;
+    /* overflow: scroll;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    -ms-overflow-style: none; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    position: relative;/* для псевдоэлементов */
+    scroll-behavior: smooth;
     padding-left: 0px;
     padding-bottom: 10px;
   }
+
+  
 
   .project {
     width: 350px;
