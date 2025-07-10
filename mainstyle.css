@@ -253,17 +253,6 @@
     box-sizing: border-box;
   }
 
-  .project-description {
-    position: static;
-    display: block;
-    font-family: 'DecimaMonoX';
-    letter-spacing: -1px;
-    font-size: var(--font-size-m);
-    background-color: #ffffffb4;
-    border-radius: 10px;
-    width: 100%;
-    box-sizing: border-box;
-  }
 
 
   .blur-container {

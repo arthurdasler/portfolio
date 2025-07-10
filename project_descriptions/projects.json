@@ -51,7 +51,7 @@
     "position": "Дизайнер айдентики",
     "logo": "logo/depot.svg",
     "images": ["IMG/depot/13.webp", "IMG/depot/14.webp", "IMG/depot/15.webp", "IMG/depot/16.webp","IMG/depot/17.webp", "IMG/depot/1.webp","IMG/depot/2.webp","IMG/depot/3.webp", "IMG/depot/4.webp", "IMG/depot/5.webp", "IMG/depot/6.webp", "IMG/depot/7.webp", "IMG/depot/8.webp", "IMG/depot/9.webp", "IMG/depot/10.webp", "IMG/depot/11.webp", "IMG/depot/12.webp", "IMG/depot/damate1.gif"],
-    "markdown": "project_descriptions/aviasales.md",
+    "markdown": "project_descriptions/depot.md",
     "hash": "#depot"
   }
   
