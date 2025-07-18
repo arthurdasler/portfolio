@@ -156,6 +156,7 @@
   width: 100%;
   height: auto;
   display: block;
+  margin-bottom:  10px;
 }
 
 /* мобильный вариант */
@@ -238,15 +239,18 @@
     -ms-overflow-style: none; */
     overflow-x: auto;
     overflow-y: hidden;
-    scrollbar-width: none;  /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
-    position: relative;/* для псевдоэлементов */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    position: relative;
+    /* для псевдоэлементов */
     scroll-behavior: smooth;
     padding-left: 0px;
     padding-bottom: 10px;
   }
 
-  
+
 
   .project {
     width: 350px;
