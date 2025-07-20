@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'gallery-img';
         card.innerHTML = `
-          <img src="${src}" class="img" alt="${name}">
+          <img src="${src}" class="img" alt="${name}" loading="lazy">
           <div class="img-desc">
             <div class="img-comp">${item.comp}</div>
             <div class="img-work">${item.work}</div>

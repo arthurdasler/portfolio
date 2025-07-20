@@ -46,7 +46,7 @@ fetch('project_descriptions/projects.json')
           const html = marked.parse(md);
 
           const imgs = (project.images || [])
-            .map(src => `<img src="${src}" class="project-image" alt="">`)
+            .map(src => `<img src="${src}" class="project-image" alt="" loading="lazy">`)
             .join('');
 
           const skillArray = Array.isArray(project.skill) ? project.skill : [];
