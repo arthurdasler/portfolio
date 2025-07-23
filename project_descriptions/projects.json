@@ -68,8 +68,22 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/aviasales.svg",
     "images": [
-      "IMG/depot/10.webp"
-    ],
+      "IMG/aviasales/1.webp",
+      "IMG/aviasales/2.webp",
+      "IMG/aviasales/3.webp",
+      "IMG/aviasales/4.webp",
+      "IMG/aviasales/5.webp",
+      "IMG/aviasales/6.webp",
+      "IMG/aviasales/7.webp",
+      "IMG/aviasales/8.webp",
+      "IMG/aviasales/9.webp",
+      "IMG/aviasales/10.webp",
+      "IMG/aviasales/11.webp",
+      "IMG/aviasales/12.webp",
+      "IMG/aviasales/13.webp",
+      "IMG/aviasales/14.webp",
+      "IMG/aviasales/15.webp"
+      ],
     "markdown": "project_descriptions/aviasales.md",
     "hash": "#aviasales",
     "skill": [
