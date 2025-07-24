@@ -48,7 +48,14 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/lifty.svg",
     "images": [
-      "IMG/depot/3-1_5x.webp"
+      "IMG/lifty/1.gif",
+      "IMG/lifty/2.webp",
+      "IMG/lifty/3.webp",
+      "IMG/lifty/4.webp",
+      "IMG/lifty/5.webp",
+      "IMG/lifty/6.webp",
+      "IMG/lifty/7.webp",
+      "IMG/lifty/8.webp"
     ],
     "markdown": "project_descriptions/lifty.md",
     "hash": "#lifty",
@@ -65,7 +72,7 @@
     "title": "Авиасейлс",
     "description": "Поиск дешёвых авиабилетов",
     "period": "2021 → 2022",
-    "position": "Ведущий дизайнер коммуникаций",
+    "position": "Дизайнер коммуникаций",
     "logo": "logo/aviasales.svg",
     "images": [
       "IMG/aviasales/1.webp",
