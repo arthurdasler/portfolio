@@ -7,7 +7,7 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/dvizh.svg",
     "images": [
-      "IMG/depot/6.webp"
+      "IMG/dvizh/1.webp"
     ],
     "markdown": "project_descriptions/dvizh.md",
     "hash": "#dvizh",
@@ -27,7 +27,18 @@
     "position": "Арт-директор",
     "logo": "logo/dropit.svg",
     "images": [
-      "IMG/depot/2-1_5x.webp"
+      "IMG/dropit/1.webp",
+      "IMG/dropit/2.webp",
+      "IMG/dropit/3.webp",
+      "IMG/dropit/4.webp",
+      "IMG/dropit/5.webp",
+      "IMG/dropit/6.webp",
+      "IMG/dropit/7.webp",
+      "IMG/dropit/8.webp",
+      "IMG/dropit/9.webp",
+      "IMG/dropit/10.webp",
+      "IMG/dropit/11.webp",
+      "IMG/dropit/12.webp"
     ],
     "markdown": "project_descriptions/dropit.md",
     "hash": "#dropit",
