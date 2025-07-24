@@ -7,7 +7,11 @@
     "position": "Ведущий дизайнер коммуникаций",
     "logo": "logo/dvizh.svg",
     "images": [
-      "IMG/dvizh/1.webp"
+      "IMG/dvizh/1.webp",
+      "IMG/dvizh/2.webp",
+      "IMG/dvizh/3.webp",
+      "IMG/dvizh/4.webp",
+      "IMG/dvizh/5.webp"
     ],
     "markdown": "project_descriptions/dvizh.md",
     "hash": "#dvizh",
