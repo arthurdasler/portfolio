@@ -1,47 +1,187 @@
 [
   {
-    "file": "1.png",
-    "comp": "Hazex",
-    "work": "Айдентика, бренд-платформа, логотип"
+    "file": "gg-logo.webp",
+    "comp": "Geshev Group",
+    "work": "Логотип"
   },
   {
-    "file": "2.png",
-    "comp": "AnotherCo",
-    "work": "Редизайн веб-сайта"
+    "file": "gg-logo2.webp",
+    "comp": "Geshev Group",
+    "work": "Логотип"
   },
   {
-    "file": "3.png",
-    "comp": "BestStudio",
-    "work": "Создание иллюстраций"
-  },
-    {
-    "file": "1.png",
-    "comp": "Hazex",
-    "work": "Айдентика, бренд-платформа, логотип"
+    "file": "lb-1.webp",
+    "comp": "Сеть бутиковых цветочных магазинов",
+    "work": "Арт-дирекшен, айдентика, брендинг, упаковка"
   },
   {
-    "file": "1.png",
-    "comp": "AnotherCo",
-    "work": "Редизайн веб-сайта"
+    "file": "lb-2.webp",
+    "comp": "Сеть бутиковых цветочных магазинов",
+    "work": "Арт-дирекшен, айдентика, брендинг, упаковка"
   },
   {
-    "file": "3.png",
-    "comp": "BestStudio",
-    "work": "Создание иллюстраций"
-  },
-    {
-    "file": "4.png",
-    "comp": "Hazex",
-    "work": "Айдентика, бренд-платформа, логотип"
+    "file": "lb-3.webp",
+    "comp": "Сеть бутиковых цветочных магазинов",
+    "work": "Арт-дирекшен, айдентика, брендинг, упаковка"
   },
   {
-    "file": "6.png",
-    "comp": "AnotherCo",
-    "work": "Редизайн веб-сайта"
+    "file": "legacy-1.webp",
+    "comp": "НКО Наследие",
+    "work": "Логотип"
   },
   {
-    "file": "8.png",
-    "comp": "BestStudio",
-    "work": "Создание иллюстраций"
+    "file": "Logo.png",
+    "comp": "Вратарская академия им. А. Карнаухова",
+    "work": "Логотип"
+  },
+  {
+    "file": "mw-1.webp",
+    "comp": "Morris & Williams",
+    "work": "Логотип, упаковка"
+  },
+  {
+    "file": "mw-2.webp",
+    "comp": "Morris & Williams",
+    "work": "Логотип, упаковка"
+  },
+  {
+    "file": "mw-3.webp",
+    "comp": "Morris & Williams",
+    "work": "Логотип, упаковка"
+  },
+  {
+    "file": "mw-4.webp",
+    "comp": "Morris & Williams",
+    "work": "Логотип, упаковка"
+  },
+  {
+    "file": "mw-5.webp",
+    "comp": "Morris & Williams",
+    "work": "Логотип, упаковка"
+  },
+  {
+    "file": "skull1.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры"
+  },
+  {
+    "file": "skull2.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры"
+  },
+  {
+    "file": "skull3.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры, полиграфия"
+  },
+  {
+    "file": "skull4.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры, полиграфия"
+  },
+  {
+    "file": "skull5.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры, полиграфия"
+  },
+  {
+    "file": "skull6.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры, полиграфия"
+  },
+  {
+    "file": "skull7.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция, постеры, полиграфия"
+  },
+  {
+    "file": "slippers-1.webp",
+    "comp": "Arthur stuff",
+    "work": "Концепция"
+  },
+  {
+    "file": "taneco-1.webp",
+    "comp": "TATNEFT",
+    "work": "Key-visual"
+  },
+  {
+    "file": "uniroots-1.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-2.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-3.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-4.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-5.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-6.webp",
+    "comp": "Uniroots",
+    "work": "Упаковка"
+  },
+  {
+    "file": "uniroots-logo.webp",
+    "comp": "Uniroots",
+    "work": "Логотип"
+  },
+  {
+    "file": "vkuskofe-1.gif",
+    "comp": "Вкус кофе",
+    "work": "Арт-дирекшен, логотип, айдентика"
+  },
+  {
+    "file": "vkuskofe-2.gif",
+    "comp": "Вкус кофе",
+    "work": "Арт-дирекшен, логотип, айдентика"
+  },
+  {
+    "file": "vkuskofe-3.gif",
+    "comp": "Вкус кофе",
+    "work": "Арт-дирекшен, логотип, айдентика"
+  },
+  {
+    "file": "ТХМ-1.gif",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
+  },
+  {
+    "file": "тхм-2.gif",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
+  },
+  {
+    "file": "тхм-3.webp",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
+  },
+  {
+    "file": "тхм-4.webp",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
+  },
+  {
+    "file": "тхм-5.webp",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
+  },
+  {
+    "file": "тхм-6.webp",
+    "comp": "Таганрогский художественный музей",
+    "work": "Айдентика, логотип"
   }
 ]
