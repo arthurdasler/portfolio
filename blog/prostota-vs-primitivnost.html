@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Артур · Думалка</title>
+    <link rel="icon" href="/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/dumalka.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+
+
+
+
+</head>
+
+<body style="margin: 0;">
+    <div class="main">
+
+        <div class="content">
+
+            <div class="upper-buttons">
+                <a href="/index.html" class="button-icon" target="_self"> <span class="icon-wrapper"><img
+                            src="/red-circle-anim.svg" alt="" loading="lazy"></span> На главную </a>
+            </div>
+
+  <div class="article-dumalka">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li><a href="/dumalka.html">Статьи</a> / </li>
+        <li id="article-title-crumb" aria-current="page">Загрузка...</li>
+      </ol>
+    </nav>
+
+    <h1 id="article-title">Загрузка...</h1>
+    <span id="article-date" class="article-date"></span>
+    <div id="article-md"></div>
+  </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+  <script>
+    // Вычисляем путь к .md файлу: article-1.md
+    const currentHtml = window.location.pathname;
+    const mdFile = currentHtml.replace(/\.html$/, '.md');
+
+    fetch(mdFile)
+      .then(response => {
+        if (!response.ok) throw new Error('Не удалось загрузить статью');
+        return response.text();
+      })
+      .then(markdown => {
+        // Извлекаем заголовок (# ...) и дату (*...*)
+        const titleMatch = markdown.match(/^# (.+)$/m);
+        const dateMatch = markdown.match(/^\*([^\*]+)\*/m);
+
+        const title = titleMatch ? titleMatch[1].trim() : 'Без названия';
+        const date = dateMatch ? dateMatch[1].trim() : '';
+
+        // Убираем первую строку (# ...) и дату (*...*) из текста, чтобы не дублировать
+        const cleanedMarkdown = markdown
+          .replace(/^# .+$/m, '')
+          .replace(/^\*.+\*/m, '')
+          .trim();
+
+        // Вставляем
+        document.title = title;
+        document.getElementById('article-title').textContent = title;
+        document.getElementById('article-title-crumb').textContent = title;
+        document.getElementById('article-date').textContent = date;
+
+        const html = marked.parse(cleanedMarkdown);
+        document.getElementById('article-md').innerHTML = html;
+      })
+      .catch(error => {
+        document.getElementById('article-md').innerHTML = `<p style="color: red;">Ошибка: ${error.message}</p>`;
+      });
+  </script>
+</body>
+
+
+</html>

@@ -1,7 +1,0 @@
-<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Frame 21">
-<ellipse id="Ellipse 1" cx="4" cy="4" rx="2" ry="2" fill="#FF0000">
-                                    <animate attributeName="fill" values="#FF0000;#CD0000;#FF0000" begin="0s" dur="1.8s" repeatCount="indefinite" fill="freeze" calcMode="linear" keyTimes="0;0.5;1"/></ellipse>
-
-                                    </g>
-</svg>

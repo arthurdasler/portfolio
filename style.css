@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+/* * {
+    border: solid 1px rgba(242, 0, 0, 0.119);
+} */
+
+
+hr {
+    border: none;
+    border-top: 1px solid #adadad;
+    width: 100%
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 100px;
+}
+
+.main-project {
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1%;
+}
+
+.upper-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.text-link {
+    text-decoration: none;
+    color: rgb(0, 106, 255);
+    padding: 2px 6px;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-content: start;
+}
+
+.company-item {
+    color: #ABABAB;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.company-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.company-name {
+    position: relative;
+    color: #212121;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    gap: 6px;
+}
+
+.company-about {
+    width: 60%;
+}
+
+.company-date {
+    width: fit-content;
+    display: flex;
+    padding: 4px 6px;
+    border: #CCCCCC 1px solid;
+    border-radius: 100px;
+    color: #ABABAB;
+    font-size: 10px;
+}
+
+.company-position {
+    color: #ABABAB;
+}
+
+.item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.1s ease, color 0.1s;
+}
+
+.item-link:hover .company-item {
+    color: #212121;
+}
+
+.item-link:hover .arrow-icon {
+    color: aqua;
+}
+
+.item-link:hover {
+    color: rgb(33, 33, 33);
+    transform: rotate(0.5deg);
+}
+
+.project-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.project-img img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.button-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1%;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ECECEC;
+    border: 0px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.button-icon:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10px;
+}
+
+.icon-wrapper img {
+    display: flex;
+    align-items: center;
+    width: 10px;
+}
+
+.arrow-icon {
+    position: absolute;
+    right: 0;
+}
+
+.nice-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1%;
+    text-decoration: none;
+    color: #282828;
+    background: #0ac3ed;
+    background: linear-gradient(90deg, rgb(208, 208, 208) 0%, rgb(220, 220, 220) 100%);
+    border: 0px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nice-button:hover {
+    background: #86e7fc;
+    background: linear-gradient(90deg, rgb(248, 174, 135) 0%, rgb(252, 155, 94) 100%);
+}
+
+.nice-button:active {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 768px) {
+    .company-about {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+    }
+}
