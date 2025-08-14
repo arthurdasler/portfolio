@@ -58,6 +58,10 @@
 
 @media (max-width: 768px) {
 
+  .main-gallery {
+    padding: 20px;
+  }
+
   .gallery-grid {
     column-count: 2;
   }

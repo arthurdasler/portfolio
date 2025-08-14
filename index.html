@@ -32,7 +32,12 @@
     <div class="main">
 
         <div class="content">
-
+            <div class="hero-text">
+                <span>Артур,</span>
+                <span class="lovelace">мульти-</span>
+                <span>дисциплинарный</span>
+                <span class="text-anim1">дизайнер</span>
+            </div>
             <div class="upper-buttons">
                 <!-- <a href="dumalka.html" class="button-icon" target="_self"> <span class="icon-wrapper"><img
                             src="red-circle-anim.svg" alt="" loading="lazy"></span> Думалка </a> -->
@@ -40,39 +45,67 @@
                             src="red-circle-anim.svg" alt="" loading="lazy"></span> Галерея </a>
             </div>
 
-            <div class="about">
-                <span style="width: 150px;">Артур Борсоков</span>
-                <span>С фокусом на <span class="text-anim1">брендинг</span> <br>и дизайн-процессы</span>
-            </div>
 
-            <div class="contact">
-                Написать в
-                <a href="https://t.me/arthurborsokov" class="link-button" target="_blank"></span>телеграм
-                </a>
-            </div>
+
+
 
         </div>
+        <div class="about">
+            <span>Родился в Таганроге, в 1996 году</span>
+            <span>Живу в Москве с 2018 года</span>
+            <span>Делаю дизайн уже 8+ лет</span>
+            <span style="padding-top: 20px;">За это время я успел поработать как на стороне бизнеса,</span>
+            <span>так и на агенсткой стороне</span>
+            <div class="contact">
+            Можно связаться в
+            <a href="https://t.me/arthurborsokov" class="link-button" target="_blank"></span>телеграм
+            </a>
+        </div>
+        </div>
+
+        <!-- <div class="about">
+            <div class="bio">
+                <span>1.</span>
+                <span>Родился в Таганроге, в 1996 году</span>
+            </div>
+            <div class="bio">
+                <span>2.</span>
+                <span>Живу в Москве с 2018 года</span>
+            </div>
+            <div class="bio">
+                <span>3.</span>
+                <span>Делаю дизайн уже 8+ лет</span>
+            </div>
+            <div class="bio">
+                <span>3.</span>
+                <span>За это время я успел поработать как на стороне бизнеса,</span>
+                <span>так и на агенсткой стороне</span>
+            </div>
+        </div> -->
+
+        
+
 
         <div class="projects">
             <!-- <span class="text">Работал:</span> -->
 
-            
-                
-                <a href="works/dvizh/" target="_self" class="item-link">
 
-                    <div class="company-item">
-                        
-                        <div class="company-name">
-                            <div> Движ </div>
-                            <img class="logotype" src="logo/dvizh.svg" alt="" loading="lazy">
-                        </div>
-                        <div class="company-about"> Prop-tech, SaaS-продукт для автоматизации процессов девелоперов
-                        </div>
-                        <div class="company-date"> 2023 - 2025 </div>
-                        <div class="company-position"> Ведущий дизайнер коммуникаций </div>
+
+            <a href="works/dvizh/" target="_self" class="item-link">
+
+                <div class="company-item">
+
+                    <div class="company-name">
+                        <div> Движ </div>
+                        <img class="logotype" src="logo/dvizh.svg" alt="" loading="lazy">
                     </div>
-                </a>
-           
+                    <div class="company-about"> Prop-tech, SaaS-продукт для автоматизации процессов девелоперов
+                    </div>
+                    <div class="company-date"> 2023 - 2025 </div>
+                    <div class="company-position"> Ведущий дизайнер коммуникаций </div>
+                </div>
+            </a>
+
 
             <hr>
 
@@ -143,13 +176,13 @@
 
     </div>
     <script>
-        const words = ['брендинг', 'визуализацию', 'маркетинг'];
+        const words = ['дизайнер', 'человек', 'человек-паук', 'мыслитель', 'игрок', 'муж'];
         let currentWordIndex = 0;
         let forwardIndex = 0;
         let isForward = true;
 
         const speed = 50;    // скорость печати (мс на букву)
-        const pauseTime = 700; // пауза после слова (мс)
+        const pauseTime = 1500; // пауза после слова (мс)
 
         const textEl = document.querySelector('.text-anim1');
 
@@ -159,7 +192,8 @@
             if (isForward) {
                 // печатаем
                 forwardIndex++;
-                textEl.textContent = currentWord.substring(0, forwardIndex);
+                // при печати
+                textEl.textContent = currentWord.substring(0, forwardIndex) || '\u00A0';
 
                 if (forwardIndex === currentWord.length) {
                     isForward = false;
@@ -169,7 +203,7 @@
             } else {
                 // стираем
                 forwardIndex--;
-                textEl.textContent = currentWord.substring(0, forwardIndex);
+                textEl.textContent = currentWord.substring(0, forwardIndex) || '\u00A0';
 
                 if (forwardIndex === 0) {
                     isForward = true;
