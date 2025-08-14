@@ -56,14 +56,12 @@ body {
     color: #212121;
     margin-bottom: 20px;
 }
-
+.lovelace {
+    font-family: 'lovelace';
+}
 .text-anim1 {
     display: inline-block;
     white-space: pre;
-}
-
-.lovelace {
-    font-family: 'lovelace';
 }
 .content {
     display: flex;
