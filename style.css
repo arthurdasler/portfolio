@@ -52,6 +52,8 @@ body {
 
 .upper-buttons {
     display: flex;
+    flex-direction: row;
+    justify-content: end;
     gap: 10px;
 }
 
