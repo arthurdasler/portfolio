@@ -12,6 +12,16 @@
     descent-override: 22%;
 }
 
+@font-face {
+    font-family: 'Faberge Italic';
+    src: url('fonts/Faberge-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Faberge Regular';
+    src: url('fonts/Faberge-Regular.woff2') format('woff2');
+}
+
 /* * {
     border: solid 1px rgba(242, 0, 0, 0.119);
 } */
@@ -49,15 +59,18 @@ body {
 .hero-text {
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;
+    font-family: 'faberge italic', sans-serif;
     line-height: 110%;
     font-size: 55px;
     font-weight: 600;
     color: #212121;
     margin-bottom: 20px;
 }
-.lovelace {
-    font-family: 'lovelace';
+.hero-text i {
+    font-family: 'faberge italic', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #212121;
 }
 .text-anim1 {
     display: inline-block;
