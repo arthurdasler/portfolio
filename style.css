@@ -307,8 +307,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .main
-    .main-dumalka {
+    .main,
+    .main-dumalka,
+    .main-gallery {
         padding: 20px;
     }
 
