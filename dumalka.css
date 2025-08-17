@@ -6,13 +6,7 @@
     --font-m: 16px;
 }
 
-.main-dumalka {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    gap: 30px;
-}
+
 
 .publications {
     display: flex;
