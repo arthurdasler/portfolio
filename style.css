@@ -46,6 +46,14 @@ body {
     gap: 100px;
 }
 
+.main-dumalka {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
 .main-project {
     padding: 30px;
     height: 100%;
@@ -299,7 +307,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .main {
+    .main
+    .main-dumalka {
         padding: 20px;
     }
 
