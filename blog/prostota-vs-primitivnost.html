@@ -2,90 +2,86 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Артур · Думалка</title>
-    <link rel="icon" href="/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/dumalka.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Артур</title>
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/dumalka.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-
-
-
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
 
 
 </head>
 
 <body style="margin: 0;">
-    <div class="main">
-
-        <div class="content">
-
-            <div class="upper-buttons">
-                <a href="/index.html" class="button-icon" target="_self"> <span class="icon-wrapper"><img
-                            src="/red-circle-anim.svg" alt="" loading="lazy"></span> На главную </a>
-            </div>
-
-  <div class="article-dumalka">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li><a href="/dumalka.html">Статьи</a> / </li>
-        <li id="article-title-crumb" aria-current="page">Загрузка...</li>
-      </ol>
-    </nav>
-
-    <h1 id="article-title">Загрузка...</h1>
-    <span id="article-date" class="article-date"></span>
-    <div id="article-md"></div>
-  </div>
+  <div class="main" style="gap: 30px;">
+    <div class="content">
+      <div class="upper-buttons">
+        <a href="/dumalka.html" class="button-icon" target="_self"> <span class="icon-wrapper"><img
+              src="/red-circle-anim.svg" alt="" loading="lazy"></span> Назад </a>
+      </div>
+    </div>
 
 
+    <div class="article">
+      <img class="article-icon" src="https://sergeychikin.ru/365/130-body/pointing.svg" alt="icon">
+      <div class="article-date">23 августа</div>
+      <div class="article-name">Примитивность vs. простота</div>
 
+      <hr>
 
+      <div id="article-body" class="article-body"></div>
 
-        </div>
+      <hr>
+      <div class="tags-wrapper">
+        <span class="tag">дизайн</span>
+        <span class="tag">вкус</span>
+        <span class="tag">простота</span>
+      </div>
 
     </div>
 
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
   <script>
-    // Вычисляем путь к .md файлу: article-1.md
-    const currentHtml = window.location.pathname;
-    const mdFile = currentHtml.replace(/\.html$/, '.md');
+    (async function () {
+      const container = document.getElementById('article-body');
+      const mdSrc = "/blog/prostota-vs-primitivnost.md"; // ссылка md
 
-    fetch(mdFile)
-      .then(response => {
-        if (!response.ok) throw new Error('Не удалось загрузить статью');
-        return response.text();
-      })
-      .then(markdown => {
-        // Извлекаем заголовок (# ...) и дату (*...*)
-        const titleMatch = markdown.match(/^# (.+)$/m);
-        const dateMatch = markdown.match(/^\*([^\*]+)\*/m);
+      try {
+        const res = await fetch(mdSrc, { cache: "no-cache" });
+        const raw = await res.text();
 
-        const title = titleMatch ? titleMatch[1].trim() : 'Без названия';
-        const date = dateMatch ? dateMatch[1].trim() : '';
+        // Парсим md -> html
+        let html = marked.parse(raw);
 
-        // Убираем первую строку (# ...) и дату (*...*) из текста, чтобы не дублировать
-        const cleanedMarkdown = markdown
-          .replace(/^# .+$/m, '')
-          .replace(/^\*.+\*/m, '')
-          .trim();
+        // Санитизация
+        const safeHTML = DOMPurify.sanitize(html, { USE_PROFILES: { html: true } });
 
-        // Вставляем
-        document.title = title;
-        document.getElementById('article-title').textContent = title;
-        document.getElementById('article-title-crumb').textContent = title;
-        document.getElementById('article-date').textContent = date;
+        // Вставляем в контейнер
+        container.innerHTML = safeHTML;
 
-        const html = marked.parse(cleanedMarkdown);
-        document.getElementById('article-md').innerHTML = html;
-      })
-      .catch(error => {
-        document.getElementById('article-md').innerHTML = `<p style="color: red;">Ошибка: ${error.message}</p>`;
-      });
+        // Обрабатываем картинки
+        container.querySelectorAll("img").forEach(img => {
+          img.classList.add("article-img");
+          if (!img.getAttribute("loading")) img.setAttribute("loading", "lazy");
+        });
+
+      } catch (e) {
+        console.error(e);
+        container.innerHTML = "<p>Ошибка загрузки статьи</p>";
+      }
+    })();
   </script>
+
 </body>
 
 
